@@ -1,4 +1,23 @@
 ## CHANGELOG:
+* v2.5 - Added HTML report generation via sniper 'loot' command
+* v2.5 - Added automatic NMap searchsploit integration to find exploits
+* v2.5 - Added various improvements to Sn1per discovery scan mode
+* v2.5 - Fixed issue with IIS BoF NMap script (CC. ifly53e)
+* v2.4f - Fixed issue with upper NMap port range(CC. DaveW)
+* v2.4e - Added NMap no ping switch to all scans
+* v2.4d - Fixed issue with rpcinfo install script
+* v2.4d - Fixed issue with Arachni install script
+* v2.4c - Added loot and $TARGET sanity checks (CC. @menzow)
+* v2.4b - Fixed issue with discovery scan output file (CC. @ifly53e)
+* v2.4b - Fixed issue with Intel AMT RCE port list
+* v2.4a - Added all NMap script checks via 'fullportonly' mode
+* v2.4a - Added JBoss JMX Console Beanshell Deployer WAR Upload and Deployment Metasploit exploit
+* v2.4a - Added Java RMI RCE NMap/Metasploit detection
+* v2.4a - Added INTEL-SA-00075 (Intel AMT) vulnerability NMap script
+* v2.4 - Added detection for open X11 servers
+* v2.4 - Added IIS6 Win2k3 RCE NMap script
+* v2.4 - Added option to disable Google Hacking queries via Firefox
+* v2.3d - Fixed issue with loot command
 * v2.3c - Added Apache Struts 2 RCE NMap script
 * v2.3c - Added Apache Struts 2 RCE NMap exploit
 * v2.3b - Changed NMap scan options to exclude ping sweeps (-P0)
@@ -140,3 +159,7 @@
 
 ## FUTURE:
 * Add auto logging and reporting to all scans
+* Add HTML reporting for scans
+* Add automated Wireless attacks to Sn1per
+* Add automated MITM attacks to Sn1per
+* Add web mode port option for customized web scans
