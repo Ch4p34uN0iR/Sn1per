@@ -1,4 +1,35 @@
 ## CHANGELOG:
+* v2.9 - New improved fullportonly scan mode
+* v2.9 - Added online check to see if there's an active internet connection
+* v2.9 - Changed default browser to firefox to clear up errors in loot commmand
+* v2.9 - Created uninstall.sh script to uninstall sniper
+* v2.9 - Removed automatic workspace creation per scan
+* v2.9 - Added curl timeout in update command to fix lag
+* v2.9 - Fixed minor NMap UDP scan flag issue
+* v2.9 - Added Metagoofil
+* v2.9 - Updated theharvester scan options to include more results
+* v2.8 - Improved discovery mode scan performance and output
+* v2.8 - Improved fullportonly scan performance
+* v2.8 - Improved startup performance options
+* v2.8 - Added Cansina web/file brute force tool
+* v2.8 - Added webporthttp and webporthttps modes
+* v2.8 - Added custerd software enumeration tool
+* v2.7 - Fixed issue with sniper update command and install.sh not running
+* v2.7 - Fixed errors with GooHak
+* v2.7 - Fixed syntax errors in sniper conditional statements 
+* v2.7 - Added CloudFail 
+* v2.7 - Fixed issue with [: ==: unary operator expected errors
+* v2.6 - Added Blackarch Linux support 
+* v2.6 - Added $BROWSER variable to set default browser
+* v2.5g - Updated README with update command
+* v2.5f - Fixes for various bugs reported and fixed by @ifly53e (https://github.com/1N3/Sn1per/pull/89)
+* v2.5e - Fixed issue with port 3128/tcp checks (CC. @ifly53e)
+* v2.5d - Added searchsploit option for (-v) to search all terms (CC. @ifly53e)
+* v2.5c - Added various improvements to 'discover' mode scans
+* v2.5b - Removed NMap script checks for 'fullportonly' mode
+* v2.5a - Added auto-updates to check and download new versions
+* v2.5a - Fixed issue with install.sh to resolve pip aha error
+* v2.5a - Added libxml2-utils to install.sh to meet dependencies
 * v2.5 - Added HTML report generation via sniper 'loot' command
 * v2.5 - Added automatic NMap searchsploit integration to find exploits
 * v2.5 - Added various improvements to Sn1per discovery scan mode
@@ -160,6 +191,3 @@
 ## FUTURE:
 * Add auto logging and reporting to all scans
 * Add HTML reporting for scans
-* Add automated Wireless attacks to Sn1per
-* Add automated MITM attacks to Sn1per
-* Add web mode port option for customized web scans
