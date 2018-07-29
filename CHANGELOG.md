@@ -1,4 +1,77 @@
 ## CHANGELOG:
+* v5.2 - Added SubOver subdomain takeover scanner
+* v5.2 - Added Subfinder subdomain enumeration tool
+* v5.2 - Added Amass subdomain enumeration tool
+* v5.2 - Added configurable modules/plugins to sniper script
+* v5.2 - Added MS17-010 SMB Etternal Blue MSF Exploit
+* v5.2 - Added MSF Postgresql login scanner
+* v5.2 - Added passive web spider
+* v5.2 - Added WebDav metasploit aux modules
+* v5.2 - Added NetBIOS NMap/MSF enumeration
+* v5.2 - Added SMB MSF enumeration
+* v5.2 - Added NSF MSF enumeration
+* v5.2 - Added SSH MSF enumeration
+* v5.2 - Added BadBlue Passthru MSF exploit
+* v5.2 - Added SMB GPP MSF aux module
+* v5.2 - Added Intel AMT MSF scanner
+* v5.2 - Added MySQL MSF scanner
+* v5.2 - Added MS03-026 DCOM RCE MSF exploit
+* v5.2 - Added VNC no auth MSF scanner
+* v5.2 - Added FTP MSF version scanner
+* v5.2 - Added FTP anonymous access MSF scanner
+* v5.2 - Added MS12-020 RDP MSF scanner
+* v5.2 - Added MS10-061 Spoolss MSF exploit
+* v5.2 - Added MS15-034 Sys Memory Dump MSF exploit
+* v5.2 - Added MS06-040 Netapi MSF exploit
+* v5.2 - Added MS05-039 PNP MSF exploit
+* v5.2 - Added MS12-020 Max Channels RDP scanner
+* v5.2 - Added JBoss status MSF scanner
+* v5.2 - Added Apache Struts 2 REST Plugin XStream RCE check
+* v5.2 - Added Apache Tomcat UTF8 Traversal MSF exploit
+* v5.2 - Added Apache OPTIONS Bleed MSF exploit
+* v5.2 - Added HP ILO Auth Bypass MSF exploit
+* v5.2 - Added Jooma Comfields SQL injection MSF exploit
+* v5.1 - Added dnscan to install.sh and updated sniper references which were broken
+* v5.1 - Changed default brute force list for dnscan to improve performance of scans
+* v5.1 - Removed CloudHunter and SubOver references (CC. 爱上平顶山)
+* v5.0 - Added Sn1per Pro reporting interface (see https://xerosecurity.com for more details)
+* v5.0 - Added GPON Router RCE auto exploit 
+* v5.0 - Added Cloudapp.net Azure subdomain takeover check
+* v5.0 - Added Cisco ASA Directory Traversal auto exploit (CVE-2018-0296)
+* v5.0 - Added Wig Web Information Gatherer
+* v5.0 - Added Dirsearch with custom dirsearch wordlists (quick, normal, full)
+* v5.0 - Fixed bug in installer/upgrade which copied the local dir contents to the install dir
+* v5.0 - Improved scan performance while taking web screenshots 
+* v5.0 - Fixed repo issue with Slurp (Shoutz to @ifly53e)
+* v5.0 - Fixed issues with wrong ports listed in port scans (Shoutz to @ifly53e)
+* v5.0 - Minor code fixes and typos corrected (Shoutz to @ifly53e)
+* v5.0 - Updated "discover" mode scans for improved performance
+* v4.5 - Added Apache Struts 2 CVE-2017-9805 and CVE-2017-5638 detection
+* v4.5 - Added dirsearch web/file brute forcing
+* v4.5 - Added smart file/directory brute forcing to all scan modes.
+* v4.5 - Added subdomain brute force scan option to Sublist3r scan.
+* v4.4 - Fixed issue with sniper nuke and airstrike modes not running.
+* v4.4 - Added improved SNMP checks via NMap/Metasploit.
+* v4.4 - Resolved dependency issue for nfs-common package.
+* v4.4 - Fixed bug in sniper -fp command switch.
+* v4.3 - Fixed bug in version info.
+* v4.2 - Fixed bad merge in 4.1 causing sniper to break.
+* v4.1 - Fixed a few bugs with various command line switches for airstrike and nuke modes.
+* v4.1 - Fixed issue with path relative file inclusion via the -f flag. You can now include just the local filename (sniper -f targets.txt).
+* v4.0 - Added new command switch options for all sniper scans (see --help for details)
+* v4.0 - Added HTML formatted report for all workspaces to display screenshots, headers, reports and open ports
+* v4.0 - Added optional scan options such as --recon, --osint, --fullportonly --bruteforce, etc. to selectively enable scan modules. (see --help for details) 
+* v4.0 - Improved Yasou scan options to include existing NMap XML files
+* v4.0 - Added automatic HTML/TXT/PDF reporting for all scans by default
+* v4.0 - Updated default workspace directory to store all loot files by $TARGET name or $WORKSPACE alias
+* v4.0 - Added screenshot and header retrieval to loot storage
+* v4.0 - Updated NMAP SMB enum script
+* v3.0 - Improved performance of various sniper modes
+* v3.0 - Added Aquatone domain flyover tool
+* v3.0 - Added slurp S3 public AWS scanner
+* v3.0 - Updated Sub-domain hijacking site list
+* v3.0 - Changed look and feel of console output to help readability
+* v3.0 - Added online/offline check to implement changes to scans when in online vs. offline mode
 * v2.9 - New improved fullportonly scan mode
 * v2.9 - Added online check to see if there's an active internet connection
 * v2.9 - Changed default browser to firefox to clear up errors in loot commmand
@@ -187,7 +260,3 @@
 * v1.4 - Added Breach-Miner for detection of breached accounts
 * v1.4 - Fixed minor errors with nmap
 * v1.4 - Removed debug output from goohak from displaying on console
-
-## FUTURE:
-* Add auto logging and reporting to all scans
-* Add HTML reporting for scans

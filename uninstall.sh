@@ -15,7 +15,7 @@ echo -e "$OKRED  (__  ) / / // // /_/ /  __/ /    $RESET"
 echo -e "$OKRED /____/_/ /_/___/ .___/\___/_/     $RESET"
 echo -e "$OKRED               /_/                 $RESET"
 echo -e "$RESET"
-echo -e "$OKORANGE + -- --=[http://crowdshield.com$RESET"
+echo -e "$OKORANGE + -- --=[http://xerosecurity.com$RESET"
 echo ""
 
 INSTALL_DIR=/usr/share/sniper
@@ -27,4 +27,3 @@ rm -Rf /usr/share/sniper/
 rm -f /usr/bin/sniper
 
 echo -e "$OKORANGE + -- --=[Done!$RESET"
-echo -e "$OKORANGE + -- --=[To run, type 'sniper'! $RESET"
